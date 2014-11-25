@@ -44,6 +44,8 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		helper = new PreferenceHelper(this);
 		initViews();
+		
+		// written by wasir
 	}
 	private void initViews(){
 		setContentView(R.layout.activity_main);
