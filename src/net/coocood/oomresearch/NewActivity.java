@@ -6,4 +6,5 @@ public class NewActivity extends MainActivity {
 		quit = false;
 		super.onDestroy();
 	}
+	
 }
